@@ -10,8 +10,10 @@
  */
 
 
-#include <stdio.h>
+
 #include "ht_countingsort_head.h"
+#include "ht_main_head.h"
+#include <stdio.h>
 
 
 uint8_t a,tmp ;
@@ -28,6 +30,8 @@ uint8_t count = 8;
 int main(void) {
 
     ht_countingsort();
+    
+    printf("%d \n",stack_counter + 1);
 
     printf ("hello world\n");
     printf ("%d \n",c);

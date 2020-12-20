@@ -12,26 +12,16 @@
 
 #ifndef ht_countingsort_head_H
 #define ht_countingsort_head_H
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 #include <stdint.h>
 
-#define ht_constantvalue_flash 0x02
-
+#define  ht_constantvalue_flash 0x02
 
 extern int stack_counter;
 
-extern void ht_countingsort(void);
+#define ht_testcase_h 12u
 
-typedef struct {
-    uint32_t ht_list_u32;
-    uint8_t *ht_number_u8;
-
-} ht_maxswing_tmp;
-
-enum {
+typedef enum  {
     Monday,
     Tuesday,
     Wednesday,
@@ -41,11 +31,13 @@ enum {
     Sunday,
     No_day
     
-} ht_list_day_tmp;
+} ht_list_day_tmp_2;
 
+typedef struct {
+    uint32_t ht_list_u32;
+    uint8_t ht_test_u8;
+    uint8_t *ht_day_u8;
 
+} ht_maxswing_tmp;
 
-#ifdef __cplusplus
-}
-#endif // * extern the libary between C and C++
 #endif // * define ht_countingsort_head_H //
