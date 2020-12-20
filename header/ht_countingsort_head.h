@@ -12,7 +12,13 @@
 
 #ifndef ht_countingsort_head_H
 #define ht_countingsort_head_H
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include <stdint.h>
 
+#ifdef __cplusplus
+}
+#endif // * extern the libary between C and C++
 #endif // * define ht_countingsort_head_H //

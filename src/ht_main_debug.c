@@ -14,10 +14,13 @@
 #include "ht_countingsort_head.h"
 
 
-#define ht_constantvalue_flash 0x01
+#define ht_constantvalue_flash 2
+uint8_t a;
 
 int main() {
 
-    printf(unit8(ht_constantvalue_flash));
+    printf ("hello world\n");
+    a = ht_constantvalue_flash + 2 ;
+    printf(a);
     return 0;
 }
