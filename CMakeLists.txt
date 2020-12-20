@@ -12,8 +12,11 @@ include_directories(
 )
 
 # Build file
+# Should be add all file which use in the code of project
 add_executable(
-    HT_MAIN
+    HT_MAIN #naming of debug on cmd
+    
+    src/ht_countingsort_src.c 
     ${PROJECT_SOURCE_DIR}/src/ht_main_debug.c
 )
 
