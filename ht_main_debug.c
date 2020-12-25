@@ -10,9 +10,9 @@
  */
 
 
-
-#include "ht_countingsort_head.h"
 #include "ht_main_head.h"
+#include "ht_countingsort_head.h"
+
 #include <stdio.h>
 
 
@@ -23,18 +23,17 @@ uint8_t count = 8;
  * @brief 
  * 
  */
+
 #ifdef ht_constantvalue_flash 
     uint8_t *c = &count;
 #endif
 
-int main(void) {
+int main(void) 
+{
 
-    ht_countingsort();
+    ht_main ();
     
-    printf("%d \n",stack_counter + 1);
-
-    printf ("hello world\n");
-    printf ("%d \n",c);
+    printf("%d \n",ht_counter_u8 + 1);
 
     tmp = (uint8_t)((ht_constantvalue_flash << 1u ) | 0x01 ) + 2;
     a = *c + 2 + tmp;

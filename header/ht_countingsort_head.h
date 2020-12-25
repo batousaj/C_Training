@@ -9,17 +9,23 @@
  * 
  */
 
-
 #ifndef ht_countingsort_head_H
 #define ht_countingsort_head_H
 
 #include <stdint.h>
+#include "ht_constant.h"
 
-#define  ht_constantvalue_flash 0x02
-
-extern int stack_counter;
-
-#define ht_testcase_h 12u
+// enum  ht_list_day_tmp_2{
+//     Monday,
+//     Tuesday,
+//     Wednesday,
+//     Thursday,
+//     Friday,
+//     Saturday,
+//     Sunday,
+//     No_day
+    
+// } ;
 
 typedef enum  {
     Monday,
@@ -40,4 +46,4 @@ typedef struct {
 
 } ht_maxswing_tmp;
 
-#endif // * define ht_countingsort_head_H //
+#endif // * define !ht_countingsort_head_H //

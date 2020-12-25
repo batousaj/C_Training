@@ -9,6 +9,8 @@ PROJECT (HT_MAIN)
 # add  header/ libary for project
 include_directories(
     ${PROJECT_SOURCE_DIR}/header
+    ${PROJECT_SOURCE_DIR}/data
+    ${PROJECT_SOURCE_DIR}/common
 )
 
 # Build file
@@ -16,8 +18,8 @@ include_directories(
 add_executable(
     HT_MAIN #naming of debug on cmd
 
+    ht_main_debug.c
     src/ht_countingsort_src.c 
-    ${PROJECT_SOURCE_DIR}/src/ht_main_debug.c
 )
 
 
