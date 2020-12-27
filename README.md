@@ -23,3 +23,14 @@ This is a project for practice - only using for internal
         + Header : Include the .h file for running the software
         + Src    : Include the src file ( service process - verify the requirement )
         + Main   : .c for debug and build the software 
+
+
+Naming Rule :
+        + ht_namevariable_lastname
+        + ht = hoang thien
+        + lastname :
+            - u8, u16 => variable for data type 8 bit and 16 bit
+            - ocs => for array
+            - cmt => enum and struct ( typedef )
+            - dta => data 
+            - fnc => function 

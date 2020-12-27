@@ -11,6 +11,7 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/header
     ${PROJECT_SOURCE_DIR}/data
     ${PROJECT_SOURCE_DIR}/common
+    ${PROJECT_SOURCE_DIR}/Platform
 )
 
 # Build file

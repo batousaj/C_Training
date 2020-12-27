@@ -11,6 +11,9 @@
 
 #ifndef ht_countingsort_head_H
 #define ht_countingsort_head_H
+#ifdef __cplusplus
+extern "C"{
+#endif
 
 #include <stdint.h>
 #include "ht_constant.h"
@@ -27,23 +30,14 @@
     
 // } ;
 
-typedef enum  {
-    Monday,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday,
-    No_day
-    
-} ht_list_day_tmp_2;
-
 typedef struct {
-    uint32_t ht_list_u32;
-    uint8_t ht_test_u8;
-    uint8_t *ht_day_u8;
+    // uint32 ht_list_u32;
+    uint8 ht_test_u8;
+    // uint8 *ht_day_u8;
 
 } ht_maxswing_tmp;
 
+#ifdef __cplusplus
+}
+#endif
 #endif // * define !ht_countingsort_head_H //

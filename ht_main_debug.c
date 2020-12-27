@@ -16,8 +16,8 @@
 #include <stdio.h>
 
 
-uint8_t a,tmp ;
-uint8_t count = 8;
+uint8 a,tmp ;
+uint8 count = 8;
 
 /**
  * @brief 
@@ -25,7 +25,7 @@ uint8_t count = 8;
  */
 
 #ifdef ht_constantvalue_flash 
-    uint8_t *c = &count;
+    uint8 *c = &count;
 #endif
 
 int main(void) 
@@ -33,9 +33,9 @@ int main(void)
 
     ht_main ();
     
-    printf("%d \n",ht_counter_u8 + 1);
+    printf("\n %d ",ht_counter_u8 + 1);
 
-    tmp = (uint8_t)((ht_constantvalue_flash << 1u ) | 0x01 ) + 2;
+    tmp = (uint8)((ht_constantvalue_flash << 1u ) | 0x01 ) + 2;
     a = *c + 2 + tmp;
 
     printf ("%d",a);
