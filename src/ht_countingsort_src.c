@@ -21,7 +21,7 @@ uint8 ht_index_u8 = 0;
     uint16 ht_tmp_count_u16 =  (uint16)ht_testcase_h;
 #endif
 
-uint8 value=7;
+int value = 8;
 
 
 static void ht_countingsort (void) 
@@ -33,7 +33,7 @@ static void ht_countingsort (void)
 
     printf(" - %d",(uint8) day);
 
-    ht_maxswing_tmp* ht_inforday_num; 
+    ht_maxswing_tmp* ht_inforday_num = &value ; 
 
     ht_inforday_num->ht_test_u8 = 2;
 

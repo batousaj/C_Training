@@ -104,7 +104,7 @@ typedef struct {
     ht_time_cmt ht_Time_dta;
     ht_reportstatus_cmt ht_status_nrc;
 
-} ht_inforreport_time_cmt ;
+} ht_inforreport_time_cmt_t ;
 
 // uint16 ht_expendtime_fnc(ht_time_cmt *ht_time, );
 // //Diagnostic Data

@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "ht_datainput_driver.C": "cpp"
+        "ht_datainput_driver.C": "cpp",
+        "iostream": "cpp",
+        "new": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "cstring": "cpp"
     }
 }

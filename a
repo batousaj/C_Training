@@ -1,0 +1,77 @@
+[33mcommit 753fa0bda3d78b42d092b6bbc6889d669b8d02e7[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Mon Jan 11 07:31:00 2021 +0700
+
+    Container Tool
+
+[33mcommit f49955190f198c89d39659870acd8cf01a713467[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Mon Jan 11 07:27:25 2021 +0700
+
+    Create folder coding by python
+
+[33mcommit 6267b2b502fc38fdcdf6598cda4e7adc0655252c[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Wed Jan 6 18:38:51 2021 +0700
+
+    cv
+
+[33mcommit 99c44ed2e7854596331a3ffb51161094a6fda249[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sun Dec 27 13:49:34 2020 +0700
+
+    Update new flatform
+
+[33mcommit be4b0bb7d3f1402d67dd385ff1c6e1ba85be16c5[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Fri Dec 25 20:17:45 2020 +0700
+
+    Command for README
+
+[33mcommit cfc0bcbbd4a56452656e6c7d435e45cf3b1d1b1e[m[33m ([m[1;33mtag: v1.1[m[33m)[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Fri Dec 25 19:53:57 2020 +0700
+
+     Update new structure for software
+
+[33mcommit 212e3bea795a2b83cf97680200c032f9c611f40b[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sun Dec 20 16:02:17 2020 +0700
+
+    Update next phase develop
+
+[33mcommit 1b85cb7d6ea4169bee13908dc0fb4fb6d639062e[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sun Dec 20 16:00:56 2020 +0700
+
+    Child Header file in Project
+
+[33mcommit 6864616381c08823b69f2b2b85c36bd349d18045[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sun Dec 20 14:24:11 2020 +0700
+
+    Using training for Define Enum, Marco, Structure, Extern
+
+[33mcommit a262d1feccdb7befa9a1a2295b7c3bb5a8d84720[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sun Dec 20 11:08:59 2020 +0700
+
+    fix
+
+[33mcommit ef02accfc0b03d13f518e049a99d50756d0ef383[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sat Dec 19 21:57:42 2020 +0700
+
+    Update direction
+
+[33mcommit f06daa62eff190fe728289ef059e639c6db223d0[m
+Author: Vu Hoang Thien (RBVH/EPS23) <ovt81hc@bosch.com>
+Date:   Sat Dec 19 21:34:29 2020 +0700
+
+    first init file for training
+
+[33mcommit 136cb21429a046b42a66c3bb8fc895a652d1158c[m
+Author: batousaj <76194347+batousaj@users.noreply.github.com>
+Date:   Sat Dec 19 11:56:55 2020 +0700
+
+    Initial commit
